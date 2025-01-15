@@ -3,3 +3,7 @@ main = "src/worker.js"
 compatibility_date = "2025-01-15"
 workers_dev = true 
 preview_urls = false
+
+[observability.logs]
+enabled = true
+
