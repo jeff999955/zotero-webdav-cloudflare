@@ -18,4 +18,4 @@ This is a simple serverless WebDAV server that can be deployed to Cloudflare Wor
 3. Link the bucket to the Worker with environment variable `MY_BUCKET`.
 4. Set secret key (username & password) for the Worker with environment variables `AUTH_USERNAME` and `AUTH_PASSWORD`.
 5. Set the worker's url in Zotero's WebDAV settings, e.g., `https://your-worker.your-subdomain.workers.dev/`. Also set the username and password to the secret key set in step 4.
-6. Enjoy syncing your Zotero library across devices (with high-speed and unlimited space).
+6. Enjoy syncing your Zotero library across devices (with high-speed and ~~unlimited space~~ 10 GB for free).
