@@ -7,3 +7,18 @@ preview_urls = false
 [observability.logs]
 enabled = true
 
+[vars]
+AUTH_USERNAME = "nl"
+
+[[routes]]
+pattern = "zotero.1000jeff.uk"
+zone_name = "1000jeff.uk"
+custom_domain = true
+
+[[routes]]
+pattern = "zotero.1000jeff.uk/zotero/*"
+zone_name = "1000jeff.uk"
+
+[[r2_buckets]]
+bucket_name = "never-loses-zotero"
+binding = "MY_BUCKET"
